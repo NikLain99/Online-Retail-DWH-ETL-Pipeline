@@ -9,6 +9,8 @@
 
 **Online-Retail-DWH-ETL-Pipeline** is a full **ETL pipeline with a three-layer Data Warehouse** built for online retail analytics.
 
+> ⚠️ Note: This is my **first project as a Data Engineer**, so please don’t judge too strictly 😉.
+
 This project demonstrates:
 
 * Ingesting data from Excel into **PostgreSQL**
@@ -129,16 +131,6 @@ python main.py datasets/Online Retail.xlsx
 * Implemented **audit logging, error handling, idempotency**
 * Created **Data Flow and ERD diagrams** with Crow’s Foot notation
 
----
-
-## 📈 Next Steps / Improvements
-
-* Implement **batch ingestion** for very large files (millions of rows)
-* Strengthen **data validation** (type, range, referential integrity)
-* Support **incremental load** instead of full TRUNCATE → INSERT
-* Integrate with **BI tools** (Metabase, Tableau)
-
----
 
 ## 🔗 Links
 
