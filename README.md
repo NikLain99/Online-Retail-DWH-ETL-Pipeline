@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue)
+![SQL](https://img.shields.io/badge/SQL-present-orange)
 ![Docker](https://img.shields.io/badge/Docker-Yes-lightblue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
