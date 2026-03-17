@@ -101,7 +101,7 @@ pip install -r requirements.txt
 Run the pipeline:
 
 ```bash
-python main.py datasets/Online Retail.xlsx
+python scripts/pipeline/run_pipeline.py
 ```
 
 * Logging is output to console and saved in **audit tables** (`raw_load_log`, `staging_load_log`, `business_load_log`).
