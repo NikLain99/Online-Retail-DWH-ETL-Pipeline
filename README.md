@@ -130,7 +130,7 @@ python main.py datasets/Online Retail.xlsx
 * First project with **full DWH and Star Schema**
 * Handling Excel with **500k+ rows**
 * Implemented **audit logging, error handling, idempotency**
-* Created **Data Flow and ERD diagrams** with Crow’s Foot notation
+* Created **Data Flow and ERD diagrams**
 
 
 ## 🔗 Links
