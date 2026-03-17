@@ -72,12 +72,13 @@ git clone https://github.com/NikLain99/Online-Retail-DWH-ETL-Pipeline.git
 cd Online-Retail-DWH-ETL-Pipeline
 ```
 
-2. Create `.env` and `.env.secret` files with Postgres settings:
+2. Change `.env` and create `.env.secret` files with Postgres settings:
 
 ```env
-POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
-POSTGRES_DB=online_retail
+POSTGRES_DB=db_name
+```
+```env
 POSTGRES_USER=your_user
 POSTGRES_PASSWORD=your_password
 ```
@@ -97,6 +98,8 @@ pip install -r requirements.txt
 ---
 
 ## 🏃 Usage
+
+Do all DDLs from ```scripts/database/```
 
 Run the pipeline:
 
